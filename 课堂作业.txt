@@ -32,12 +32,12 @@ print(l)
 7、现有字符串 ‘aasdebbcaa’，请统计字符串中每个字符出现的次数，将统计结果存储在一个字典里
 a='aasdebbcaa'
 b={}
-b[l[0]]=(l.count(l[0]))
-b[l[2]]=(l.count(l[2]))
-b[l[3]]=(l.count(l[3]))
-b[l[4]]=(l.count(l[4]))
-b[l[5]]=(l.count(l[5]))
-b[l[7]]=(l.count(l[7]))
+b[a[0]]=(a.count(a[0]))
+b[a[2]]=(a.count(a[2]))
+b[a[3]]=(a.count(a[3]))
+b[a[4]]=(a.count(a[4]))
+b[a[5]]=(a.count(a[7]))
+b[a[7]]=(a.count(a[7]))
 print(b)
 
 8、完成一个函数，计算传入的字符串中的【数字】、【字母】、【空格】和【其他】的个数后返回
@@ -64,6 +64,12 @@ def number():
 number()
 
 9、完成一个函数，检查传入的字符串是否含有空格，如果有空格则删去字符串中的空格并返回结果
+def chack_space():
+    s='hello wo rld'
+    s.replace(' ','')
+    print(s)
+    
+ check_space()
 
 10、完成一个函数：随机产生一个数，让用户来猜，猜中则屏幕打印“恭喜你猜对了”并结束，若猜错，则提示用户是猜大了还是猜小了（提示：内置的 random 模块有产生随机数的方法）
 import random
