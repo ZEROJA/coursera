@@ -1,11 +1,11 @@
-?	1¡¢±àÐ´Ò»¸öº¯ÊýÊä³ö³Ë·¨¿Ú¾÷±í£¬Ö´ÐÐ½á¹ûÈçÍ¼ËùÊ¾£¨ÌáÊ¾£ºprint Ä¬ÈÏÊä³öºó»á»»ÐÐ£¬¿ÉÒÔÍ¨¹ý print ²ÎÊý¿ØÖÆÊÇ·ñ»»ÐÐ£©
+	1ã€ç¼–å†™ä¸€ä¸ªå‡½æ•°è¾“å‡ºä¹˜æ³•å£è¯€è¡¨ï¼Œæ‰§è¡Œç»“æžœå¦‚å›¾æ‰€ç¤ºï¼ˆæç¤ºï¼šprint é»˜è®¤è¾“å‡ºåŽä¼šæ¢è¡Œï¼Œå¯ä»¥é€šè¿‡ print å‚æ•°æŽ§åˆ¶æ˜¯å¦æ¢è¡Œï¼‰
 for i in range(1,10):
      for j in range(1,i+1):
          print('{}*{}={}\t'.format(j,i,i*j),end='')
      print()
 
 
-?	2¡¢±àÐ´Ò»¸öº¯Êý±éÀú²¢´òÓ¡ 1 µ½ 100£¬Èç¹ûÊý×ÖÄÜ±»3Õû³ý£¬ÏÔÊ¾ Fizz£»Èç¹ûÊý×ÖÄÜ±» 5 Õû³ý£¬ÏÔÊ¾ Buzz£»Èç¹ûÄÜÍ¬Ê±±» 3 ºÍ 5 Õû³ý£¬¾ÍÏÔÊ¾ FizzBuzz
+	2ã€ç¼–å†™ä¸€ä¸ªå‡½æ•°éåŽ†å¹¶æ‰“å° 1 åˆ° 100ï¼Œå¦‚æžœæ•°å­—èƒ½è¢«3æ•´é™¤ï¼Œæ˜¾ç¤º Fizzï¼›å¦‚æžœæ•°å­—èƒ½è¢« 5 æ•´é™¤ï¼Œæ˜¾ç¤º Buzzï¼›å¦‚æžœèƒ½åŒæ—¶è¢« 3 å’Œ 5 æ•´é™¤ï¼Œå°±æ˜¾ç¤º FizzBuzz
 def ling():
     for i in range(0,100):
         print(i,end='')
@@ -20,7 +20,7 @@ def ling():
 
 ling()
 
-?	3¡¢±àÐ´Ò»¸öº¯Êý£¬Êä³ö 100 ÒÔÄÚµÄì³²¨ÄÇÆõÊýÁÐ
+	3ã€ç¼–å†™ä¸€ä¸ªå‡½æ•°ï¼Œè¾“å‡º 100 ä»¥å†…çš„æ–æ³¢é‚£å¥‘æ•°åˆ—
 def feibonaqi(num):
      fibs = [0,1]
      for i in range(num-2):
