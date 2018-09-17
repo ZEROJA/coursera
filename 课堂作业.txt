@@ -36,7 +36,7 @@ b[l[0]]=(l.count(l[0]))
 b[l[2]]=(l.count(l[2]))
 b[l[3]]=(l.count(l[3]))
 b[l[4]]=(l.count(l[4]))
-b[l[5]]=(l.count(l[7]))
+b[l[5]]=(l.count(l[5]))
 b[l[7]]=(l.count(l[7]))
 print(b)
 
