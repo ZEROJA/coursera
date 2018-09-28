@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+</head>
+<style>
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+p{
+	margin-top:15px;
+	margin-left:45px;
+
+}
+p span{
+	width:40px;
+	text-align:center;
+}
+.num,.num1,.num2{
+	width:170px;
+	height:40px;
+	border:1px solid #CCC;
+}
+.num,.num1{
+	margin-left:42px;
+}
+.num2{
+	margin-left:10px;
+}
+.span0{
+	color:#666;
+}
+.but{
+	width:160px;
+	height:40px;
+	background-color:#C03;
+	font-size:13px;
+	color:#fff;
+	margin-left:80px;
+}
+
+</style>
+<body>
+<form>
+	<p>
+    	<span class="span1">邮箱</span>
+        <input type="email" name="myemail" class="num"/>
+    </p>
+    <p>
+    	<span class="span2">密码</span>
+		<input type="password" name="pwd" pattern="^(?!.*\s)(?!\d{1,9}$).{6,16}$" class="num1"/>
+    	<span class="span0">请输入6-16位密码，不能使用空格</span>
+    <p>
+    	<span class="span3">手机号码</span>
+        <input type="tel" name="telphone" pattern="^\d{11}$" class="num2" onLoad="a"/>
+    </p>    
+    <p>
+    	<input class="but" type="button" value="立即注册"/>
+    </p>
+</form>
+
+</body>
+</html>
